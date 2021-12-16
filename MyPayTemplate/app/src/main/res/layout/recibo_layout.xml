@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="3dp"
+    android:paddingEnd="2dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/linerPrimeiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivLogoRecibo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/tvBandeira"
+            android:text="label bandeira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvTipoPagamento"
+            android:text="pagamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvNumeroCartao"
+            android:text="label cartao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvNumeroPos"
+            android:text=" label pos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearSegundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linerPrimeiro">
+
+        <TextView
+            android:id="@+id/tvCnpj"
+            android:text="cnpj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvNomeDaLoja"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" nome loja"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvEnderecoLoja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" endereco loja" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvCidadeUf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cidade exemplo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/linerTerceiro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearSegundo">
+
+        <TextView
+            android:id="@+id/tvNumeroEstabelecimento"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:text="n establecimento" />
+
+        <TextView
+            android:id="@+id/tvNumeroDocumento"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="doc exemplo"/>
+
+        <TextView
+            android:id="@+id/tvNumeroAutorizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="end"
+            android:text="autorização exemplo" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/linerQuarto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linerTerceiro">
+
+        <TextView
+            android:id="@+id/tvData"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvHora"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="hora"
+            android:textSize="14sp" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textSize="14sp"
+            android:id="@+id/tvOnlc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="end"
+            android:text="ONLC" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvVendaAcredito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="credito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linerQuarto" />
+
+    <LinearLayout
+        android:id="@+id/linerUltimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVendaAcredito">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:text="valor:"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvValor"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="0,00"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

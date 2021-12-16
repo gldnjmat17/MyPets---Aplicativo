@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.uea.transirie.mypay.mypaytemplate2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/grupo_1270"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/grupo_1270"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".ui.home.Cliente.ClientesFuncActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+        <activity android:name=".ui.recuperar_senha.SplashSenhaAtualizadaActivity" />
+        <activity android:name=".ui.recuperar_senha.SplashEmailRecuperacaoEnviadoActivity" />
+        <activity android:name=".ui.recuperar_senha.EnviarEmailActivity" />
+        <activity android:name=".ui.cadastro.CadastroErroConexaoActivity" />
+        <activity android:name=".ui.cadastro.SplashCadastroConcluidoActivity" />
+        <activity
+            android:name=".ui.cadastro.CadastroPassoUnicoActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.cadastro.GerarPinActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.cadastro.TelaCarregamentoActivity" />
+        <activity android:name=".ui.home.Caixa.SplashPrimeiroUsoActivity" />
+        <activity android:name=".ui.home.Caixa.AbrirCaixaActivity" />
+        <activity android:name=".ui.home.Caixa.FecharCaixaActivity" />
+        <activity
+            android:name=".ui.home.Ajustes.AdicionarColaboradorActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.home.Ajustes.AjustesFuncionarioActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.home.Ajustes.AlterarPinActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.home.Ajustes.ColaboradoresActivity" />
+        <activity android:name=".ui.home.Ajustes.DadosCadastradosAjustesFuncActivity" />
+        <activity android:name=".ui.home.Ajustes.DadosCadastradosGerenteActivity" />
+        <activity
+            android:name=".ui.home.Ajustes.EditarColaboradorActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.home.Ajustes.EditarEstabelecimentoActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.home.Ajustes.SplashUpdateConcluidoActivity" />
+        <activity
+            android:name=".ui.home.Ajustes.VisualizarColaboradorActivity" />
+        <activity android:name=".ui.home.Caixa.MovimentarCaixaActivity" />
+        <activity android:name=".ui.home.Caixa.CaixaActivity" />
+        <activity
+            android:name=".ui.home.HomeFuncionarioActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.recuperar_senha.EscanearCodigoActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.recuperar_senha.RecuperarPinActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.home.Venda.PagamentoRecusadoActivity" />
+        <activity android:name=".ui.home.SobreAplicativoActivity" />
+        <activity android:name=".ui.home.HistoricoVendas.HistoricoVendasActivity" />
+        <activity android:name=".ui.home.Venda.InsiraSenhaActivity" />
+        <activity android:name=".ui.home.Venda.InsiraCartaoActivity" />
+        <activity android:name=".ui.home.Venda.PagamentoRealizadoActivity" />
+        <activity android:name=".ui.home.Venda.PagamentoCreditoActivity" />
+        <activity android:name=".ui.home.Venda.PagamentoDinheiroActivity" />
+        <activity android:name=".ui.home.Venda.PagamentoDebitoActivity" />
+        <activity android:name=".ui.home.Venda.ModoDePagamentoActivity" />
+        <activity android:name=".ui.home.Venda.DescontoActivity" />
+        <activity android:name=".ui.home.Venda.SelecionarClienteActivity" />
+        <activity android:name=".ui.home.Venda.CarrinhoVendaActivity" />
+        <activity android:name=".ui.home.Venda.SelecaoProdutosActivity" />
+        <activity android:name=".ui.home.Cliente.ResgatarBrindeActivity" />
+        <activity android:name=".ui.home.Brinde.BrindeActivity" />
+        <activity android:name=".ui.home.Estoque.EstoqueActivity" />
+        <activity android:name=".ui.home.Meta.EditarMetaActivity" />
+        <activity android:name=".ui.home.Meta.CadastrarMetaActivity" />
+        <activity android:name=".ui.home.Brinde.EditarBrindeActivity" />
+        <activity android:name=".ui.home.Brinde.CadastrarBrindeActivity" />
+        <activity android:name=".ui.home.Estoque.EditarProdutoActivity" />
+        <activity android:name=".ui.home.Estoque.CadastrarProdutoActivity" />
+        <activity android:name=".ui.home.Cliente.VisualizarClienteActivity" />
+        <activity android:name=".ui.home.Cliente.EditarClienteActivity" />
+        <activity android:name=".ui.home.Cliente.CadastrarClienteActivity" />
+        <activity android:name=".ui.servicos.EditarServicosActivity" />
+        <activity android:name=".ui.startup.StartupActivity" />
+        <activity android:name=".ui.startup.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.home.HomeGerenteActivity" />
+        <activity
+            android:name=".ui.startup.LoginActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

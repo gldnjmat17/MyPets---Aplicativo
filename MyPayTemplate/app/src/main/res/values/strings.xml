@@ -1,0 +1,318 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MySalesman</string>
+    <string name="home">Início</string>
+    <string name="caixa">Caixa</string>
+    <string name="historico">Histórico</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="imgdesc_icone_celular">Ícone de celular</string>
+    <string name="bem_vindo">Bem vindo ao MySalesman</string>
+    <string name="slogan">Seu negócio na sua mão.</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="faca_login">FAÇA SEU LOGIN</string>
+    <string name="label_numero_cartao">*****************%s</string>
+    <string name="label_numero_POS">VIA-ESTABELECIMENTO/POS=%s</string>
+    <string name="login">Login</string>
+    <string name="PREF_USER_ID">USER_ID</string>
+    <string name="label_cnpj">CNPJ: %s</string>
+    <string name="label_numero_documento">DOC=%s</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="label_numero_autorizacao">AUT=%s</string>
+    <string name="email">Email</string>
+    <string name="insiria_as_informações">Insira as informações do novo colaborador:</string>
+    <string name="selecione_o_cargo">Selecione o cargo</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="desc_editar_servico">Editar Serviço</string>
+    <string name="desc_deletar_servico">Deletar Serviço</string>
+    <string name="senha">Senha</string>
+    <string name="editar_senha">Editar senha</string>
+    <string name="servicos_cadastrados">Serviços Cadastrados</string>
+    <string name="editar_servicos">Editar serviços</string>
+    <string name="sobre_o_aplicativo">Sobre o aplicativo</string>
+    <string name="sair_do_aplicativo">Sair do aplicativo</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="cpf_exemplo">CPF: 54165648</string>
+    <string name="editar">Editar</string>
+    <string name="editar_dados">Editar dados</string>
+    <string name="dados_cadastrados">Dados Cadastrados</string>
+    <string name="minha_empresa">Minha Empresa</string>
+    <string name="preco">Preço</string>
+    <string name="digite_preco">Digite o Novo Preço</string>
+    <string name="ok">OK</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="pergunta_realmente_remover">Realmente Remover?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+    <string-array name="CargosColab">
+        <item>Funcionário</item>
+        <item>Gerente</item>
+    </string-array>
+
+    <string-array name="Dias">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="Mes">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosto</item>
+        <item>Setembro</item>
+        <item>Outubro</item>
+        <item>Novembro</item>
+        <item>Dezembro</item>
+    </string-array>
+
+    <string-array name="MesRed">
+        <item>Jan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Mai</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Out</item>
+        <item>Nov</item>
+        <item>Dez</item>
+    </string-array>
+
+    <string-array name="Ano">
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+        <item>2041</item>
+        <item>2042</item>
+        <item>2043</item>
+        <item>2044</item>
+        <item>2045</item>
+        <item>2046</item>
+        <item>2047</item>
+        <item>2048</item>
+        <item>2049</item>
+        <item>2050</item>
+    </string-array>
+
+    <string-array name="Parcelas">
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>6x</item>
+        <item>7x</item>
+        <item>8x</item>
+        <item>9x</item>
+        <item>10x</item>
+        <item>11x</item>
+        <item>12x</item>
+    </string-array>
+    <string-array name="ModoPagamento">
+        <item>Despesa no Dinheiro</item>
+        <item>Despesa no Cartão de Crédito</item>
+        <item>Despesa no Cartão de Débito</item>
+    </string-array>
+
+    <!--FRAMEWORK LOGIN-->
+    <string name="esqueci_minha_senha"><u>Esqueci minha senha</u></string>
+    <string name="erro_email_invalido">Email com formato inválido.</string>
+    <string name="erro_senha_menor_que_seis_digitos">Senha menor que 6 dígitos.</string>
+    <string name="PREF_USER_DATA">USER</string>
+    <string name="PREF_USER_LOGADO">USER_LOGADO</string>
+    <string name="informa_es_sobre_o_mysalesman">Informações sobre o MySalesman</string>
+    <string name="dicas_sobre_o_app">Dicas sobre o App</string>
+    <string name="encerrar_sess_o">Encerrar sessão</string>
+    <string name="firebase_error_email_ou_senha_incorretos">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="erro_login_senha_ou_email_incorretos">Senha ou email incorretos.</string>
+
+    <!--FRAMEWORK CADASTRO-->
+    <string name="title_cadastro">Cadastro</string>
+
+    <string name="atualizado_na_nuvem">Atualizado na nuvem em: 24/06/2021, 15:58.</string>
+
+    <string name="passo_um">PASSO 1 DE 2</string>
+    <string name="insira_dados_cadastro">Insira seus dados de cadastro:</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="cpf">CPF</string>
+    <string name="cpf_associado">"CPF associado à empresa"</string>
+    <string name="telefone">Telefone</string>
+    <string name="endereco">Endereço</string>
+    <string name="opcional">Opcional</string>
+    <string name="avancar">AVANÇAR</string>
+    <string name="confirmar_que_e_voce">Para confirmar que é você insira seu PIN atual:</string>
+    <string name="pin_atual">PIN atual</string>
+    <string name="confirme_seu_pin_atual">Confirme seu PIN atual</string>
+    <string name="MASK_CPF">[000].[000].[000]-[00]</string>
+    <string name="erro_cpf_ja_cadastrado">CPF já cadastrado.</string>
+
+    <string name="title_add_colaborador">Adicionar colaborador</string>
+    <string name="gerar_pin_colbaorador">Para que o novo colaborador acesse sua conta será necessário uma senha de 4 dígitos (PIN). Não se preocupe, iremos cuidar disso para você. Anotar a senha que será gerada, pois ela não aparecerá novamente.</string>
+    <string name="memorize_seu_pin">Memorize seu PIN!</string>
+    <string name="memorize_seu_pin_txt2">Ao concluir, você não terá mais acesso a visualização do seu PIN. Tem certeza que o memorizou?</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="para_fazer_o_login">Para fazer o login você precisará dessa senha:</string>
+    <string name="gerar_pin_text">Para acessar sua conta será necessário uma senha de 4 dígitos (PIN). Não se preocupe, iremos cuidar disso para você. Só se preocupe em anotar a senha que será gerada, pois ela não aparecerá novamente.</string>
+    <string name="EXTRA_COLABORADOR_ADICIONADO">EXTRA_COLABORADOR_ADICIONADO</string>
+    <string name="colaborador_adicionado_sucesso">Colaborador adicionado com sucesso!</string>
+    <string name="description_seta_lista_colaboradores">Ícone de seta para acessar o perfil do funcionário.</string>
+    <string name="gerenciar_colaboradores">Gerenciar Colaboradores</string>
+    <string name="title_sobre_o_aplicativo">Sobre o Aplicativo</string>
+    <string name="erro_no_estabelecimento_cadastrado">Não há estabelecimento cadastrado.</string>
+    <string name="erro_dados_cache">Dados do cache são descartados pois podem não estar atualizados.</string>
+    <string name="introducao">Descubra um mundo de possibilidades para o seu negócio</string>
+    <string name="loginCad">FAÇA O LOGIN</string>
+    <string name="insira_sua_senha_de_4_digitos">Insira sua senha de 4 dígitos abaixo para entrar com a sua conta:</string>
+    <string name="boas_vindas">Bem-Vindo ao MySalesman!</string>
+    <string name="ultimo_upload_sem_data">--/--/----</string>
+    <string name="dialog_deletar_txt">Ao deletar sua conta você estará apagando todos os dados referentes a ela. Tem certeza que quer continuar?</string>
+    <string name="dialog_deletar_txt2">Ao deletar sua conta você estará apagando todos os dados referentes a ela e ao estabelecimento. Tem certeza que quer continuar?</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="zero">0</string>
+    <string name="title_alterar_pin">Alterar seu PIN</string>
+    <string name="PREF_USER_GERENTE_CPF">PREF_USER_GERENTE_CPF</string>
+    <string name="cpf_desconhecido">XXX.XXX.XXX-XX</string>
+    <string name="estamos_gerando_pin">Estamos gerando o seu PIN, lembre-se de memorizá-lo!</string>
+    <string name="PREF_PIN">PREF_PIN</string>
+
+    <string name="passo_dois">PASSO 2 DE 2</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="concluir">CONCLUIR</string>
+    <string name="extra_nome_completo">EXTRA_NOME_COMPLETO</string>
+    <string name="extra_cpf">EXTRA_CPF</string>
+    <string name="extra_telefone">EXTRA_TELEFONE</string>
+    <string name="extra_endereco">EXTRA_ENDERECO</string>
+    <string name="EXTRA_USUARIO">EXTRA_USUARIO</string>
+    <string name="erro_email_ja_em_uso_tente_outro">Este email já está em uso. Tente outro.</string>
+    <string name="EXTRA_ERRO_CADASTRO">EXTRA_ERRO_CADASTRO</string>
+    <string name="erro_firebase_insira_email_valido">The email address is badly formatted.</string>
+    <string name="erro_firebase_email_ja_em_uso_tente_outro">The email address is already in use by another account.</string>
+
+    <string name="description_ic_load">Imagem de uma roda de carregamento parada. Em tempo de execução, é substituída por uma animação própria da roda girando para informar o carregamento do processo.</string>
+    <string name="por_favor_aguarde" tools:ignore="TypographyEllipsis">Por favor aguarde...</string>
+    <string name="estamos_salvando_dados_nuvem">Estamos salvando seus dados na nuvem</string>
+    <string name="ERRO_CADASTRO_TIMEOUT">5s timeout.</string>
+
+    <string name="description_sinal_de_visto_cadastro_do_usuario">Sinal de visto nas cores do app. Nesse caso, representa a conclusão do cadastro do usuário.</string>
+    <string name="cadastro_concluido_com_sucesso">Cadastro concluído com sucesso!</string>
+    <string name="seus_dados_foram_salvos_nuvem">Seus dados foram salvos na nuvem</string>
+    <string name="description_sinal_de_visto_cadastro_do_estabelecimento">Sinal de visto nas cores do app. Nesse caso, representa a conclusão do cadastro do estabelecimento.</string>
+    <string name="dados_atualizados_com_sucesso">Dados atualizados com sucesso!</string>
+
+    <string name="description_ic_cancel">Um X em branco rodeado de um círculo azul.</string>
+    <string name="btn_text_tentar_novamente"><u>TENTAR NOVAMENTE</u></string>
+    <string name="verifique_conexao">Verifique a conexão da sua internet e tente novamente.</string>
+    <string name="nao_foi_possivel_concluir_cadastro">Não foi possível concluir o cadastro!</string>
+
+    <!--My Validations-->
+    <string name="erro_campo_obrigatorio">Campo obrigatório</string>
+    <string name="erro_insira_cpf_valido">Insira um CPF válido.</string>
+    <string name="erro_telefone_invalido">Insira um telefone válido.</string>
+    <string name="erro_insira_email_valido">Insira um endereço de email válido.</string>
+    <string name="erro_pin_4_caracteres">Insira um Pin com 4 caracteres.</string>
+    <string name="erro_pins_incompativeis">PINs incompatíveis</string>
+    <string name="erro_senha_6_ou_mais_caracteres">Insira uma senha com 6 ou mais caracteres.</string>
+    <string name="erro_senhas_incompativeis">Senhas incompatíveis</string>
+    <string name="firebase_error_senha_incorreta">The password is invalid or the user does not have a password.</string>
+    <string name="salvar">SALVAR</string>
+    <string name="fa_a_seu_login"><u>FAÇA SEU LOGIN</u></string>
+    <string name="nome_estabelecimento">Nome do Estabelecimento</string>
+    <string name="usuario_nome">Nome</string>
+    <string name="usuario_sobrenome">Sobrenome</string>
+    <string name="EXTRA_ESTABELECIMENTO">EXTRA_ESTABELECIMENTO</string>
+    <string name="EXTRA_TOPBAR_TITLE">EXTRA_TOPBAR_TITLE</string>
+    <string name="gerar_pin">Gerar Pin</string>
+    <string name="colaboradores">Colaboradores</string>
+    <string name="cargo">Cargo</string>
+    <string name="PREF_USER_ULTIMO_UPLOAD">PREF_USER_ULTIMO_UPLOAD</string>
+    <string name="visualizar_colaborador">Visualizar colaborador</string>
+    <string name="deletar_colaborador">DELETAR COLABORADOR</string>
+    <string name="funcionario">Funcionário</string>
+    <string name="ALTERANDO_DADOS_GERENTE">ALTERANDO_DADOS_GERENTE</string>
+    <string name="pin">PIN</string>
+    <string name="alterar_seu_pin">Alterar seu PIN</string>
+    <string name="informa_es_sobre_o_mytire">Informações sobre o MySalesman</string>
+    <string name="recuperar_pin_um_erro_email_nao_cadastrado">Email não cadastrado.</string>
+    <string name="erro_conexao_atividade_incomum_eng">We have blocked all requests from this device due to unusual activity. Try again later.</string>
+    <string name="erro_conexao_atividade_incomum">Todos os envios foram bloqueados devido a uma atividade incomum. Tente novamente mais tarde.</string>
+    <string name="erro_firebase_email_nao_encontrado_eng">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="erro_firebase_email_nao_encontrado">Não há registro deste usuário na nuvem. Tente novamente mais tarde.</string>
+    <string name="erro_envio_email">"Não foi possível enviar o email. Tente de novo mais tarde."</string>
+    <string name="recuperar_pin_dois_txt2">
+        Enviamos um link para o seu email, nele
+        você vai encontrar um QR Code necessário
+        para visualizar sua senha atual.
+    </string>
+    <string name="recuperar_pin_dois_txt3">
+        Caso não tenha recebido este email,
+        aperte em "ENVIAR NOVAMENTE".
+    </string>
+    <string name="recuperar_pin_dois_btn1">ESCANEAR QR CODE</string>
+    <string name="recuperar_pin_dois_btn2">ENVIAR NOVAMENTE</string>
+    <string name="recuperar_pin_tres_txt2">Para fazer o login você precisará dessa senha:</string>
+    <string name="pin_padrao">0000</string>
+    <string name="deletar_conta">DELETAR CONTA</string>
+    <string name="gerente">Gerente</string>
+    <string name="esqueceuSenha">Esqueceu seu Pin?</string>
+    <string name="pin_incorreto">Pin incorreto</string>
+    <string name="PREF_USER_IS_GERENTE">PREF_USER_IS_GERENTE</string>
+    <string name="ajustes_maiusculo">AJUSTES</string>
+    <string name="EXTRA_USUARIO_EMAIL">EXTRA_USUARIO_EMAIL</string>
+    <string name="recuperar_pin_um_txt1">Problemas para entrar?</string>
+    <string name="recuperar_pin_um_txt2">Insira o seu email e enviaremos um QR Code para que você possa redefinir seu PIN.</string>
+    <string name="recuperar_pin_dois_txt1">QR Code</string>
+    <string name="EXTRA_USUARIO_IS_GERENTE">EXTRA_USUARIO_IS_GERENTE</string>
+    <string name="pin_atualizado_com_sucesso">PIN atualizado com sucesso!</string>
+    <string name="pin_acesso_atualizado">Seu PIN de acesso foi atualizado.</string>
+</resources>

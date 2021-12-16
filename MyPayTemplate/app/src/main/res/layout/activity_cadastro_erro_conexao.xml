@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cadastro.CadastroErroConexaoActivity">
+
+    <ImageView
+        android:id="@+id/ivCirculoErro"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/description_ic_cancel"
+        app:layout_constraintBottom_toTopOf="@+id/tvNaoFoiPossivel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/ic_baseline_highlight_off_24" />
+
+    <TextView
+        android:id="@+id/tvNaoFoiPossivel"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/nao_foi_possivel_concluir_cadastro"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvVerifiqueConexao"
+        app:layout_constraintEnd_toEndOf="@+id/ivCirculoErro"
+        app:layout_constraintStart_toStartOf="@+id/ivCirculoErro"
+        app:layout_constraintTop_toBottomOf="@+id/ivCirculoErro" />
+
+    <TextView
+        android:id="@+id/tvVerifiqueConexao"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/verifique_conexao"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/tvTentarNovamente"
+        app:layout_constraintEnd_toEndOf="@+id/tvNaoFoiPossivel"
+        app:layout_constraintStart_toStartOf="@+id/tvNaoFoiPossivel"
+        app:layout_constraintTop_toBottomOf="@+id/tvNaoFoiPossivel" />
+
+    <TextView
+        android:id="@+id/tvTentarNovamente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/btn_text_tentar_novamente"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvVerifiqueConexao"
+        app:layout_constraintStart_toStartOf="@+id/tvVerifiqueConexao"
+        app:layout_constraintTop_toBottomOf="@+id/tvVerifiqueConexao" />
+</androidx.constraintlayout.widget.ConstraintLayout>

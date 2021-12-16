@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_revendedor"
+        android:icon="@drawable/account_circle_white_24dp"
+        android:title="Rev"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="8"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="7"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="6"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="5"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="4"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="3"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="2"
+        app:showAsAction="always" />
+    <item
+        android:icon="@android:drawable/menuitem_background"
+        android:title="1"
+        app:showAsAction="always" />
+</menu>

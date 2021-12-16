@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/ic_caixa"
+        android:icon="@drawable/people_black_24dp"
+        android:title="Clientes" />
+    <item
+        android:id="@+id/ic_meta"
+        android:icon="@drawable/track_changes_24px"
+        android:title="Meta" />
+
+    <item
+        android:id="@+id/ic_ajustes"
+        android:icon="@drawable/ic_ajustes"
+        android:title="@string/ajustes"/>
+
+</menu>

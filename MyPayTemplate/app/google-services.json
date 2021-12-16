@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "36768574748",
+    "project_id": "mysalesman-5ada6",
+    "storage_bucket": "mysalesman-5ada6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36768574748:android:413b4e27478ce8da7a9ed9",
+        "android_client_info": {
+          "package_name": "br.uea.transirie.mypay.mysalesman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36768574748-go379kv7haqijoh3qste6me3pa2av3kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhsWxyvP5GueFxbxAmj6mbhGqmW3Z6RfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36768574748-go379kv7haqijoh3qste6me3pa2av3kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
